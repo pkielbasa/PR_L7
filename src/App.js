@@ -15,6 +15,7 @@ function App() {
                    render={props => <Posts sortBy="newest" {...props} />}
                    />
                    <Route path="/" exact component={Home} />
+                   <Route component = {notFound}/>
                </Switch>
            </div>
        </div>
